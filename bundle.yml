@@ -10,7 +10,7 @@ resources:
   pipelines:
     # Our DLT pipeline
     medium_metrics_pipeline:
-      name: "[Rob - ${bundle.environment}] FE Medium Metrics Pipeline"
+      name: "[Rob test - ${bundle.environment}] FE Medium Metrics Pipeline"
       target: "medium_post_report_${bundle.environment}"
       libraries:
         - file:
